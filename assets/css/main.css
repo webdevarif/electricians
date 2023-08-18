@@ -258,10 +258,14 @@ img {
 .sticky-wrapper {
   position: absolute;
   width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 .sticky-wrapper.is-sticky .header-area {
   background: #14171f;
 }
+
 .header-area {
   position: absolute;
   z-index: 999;
