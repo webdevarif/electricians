@@ -151,6 +151,9 @@
     .tab-wrap .nav {
         margin-bottom: 30px;
     }
+    .mobile-sticky{
+        display: block;
+    }
 }
 
 @media (max-width: 767px) {

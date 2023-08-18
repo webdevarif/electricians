@@ -732,4 +732,28 @@ img {
   font-size: 0.875rem;
 }
 
+.mobile-sticky {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: none;
+}
+.mobile-sticky__icon {
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  padding: 0px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #203ca7;
+  color: #fcc907;
+  font-size: 25px;
+}
+.mobile-sticky__icon:hover {
+  background-color: rgb(15, 23, 56);
+  color: #fcc907;
+}
+
 /*# sourceMappingURL=main.css.map */
