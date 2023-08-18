@@ -584,7 +584,12 @@ img {
   background-color: hsla(0, 0%, 100%, 0.3);
 }
 .testimonial-rating-brands .single-testi-rating img {
-  width: 130px;
+  width: 100px;
+}
+@media (min-width: 991px) {
+  .testimonial-rating-brands .single-testi-rating img {
+    width: 130px;
+  }
 }
 
 /* promise area style
