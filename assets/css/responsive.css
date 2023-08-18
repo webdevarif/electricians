@@ -1,0 +1,193 @@
+@media (min-width: 1200px) {
+   .container {
+        max-width: 1160px;
+   }
+}
+@media (min-width: 1366px) {
+    
+}
+@media (min-width: 1440px) {
+    
+}
+@media (min-width: 1580px) {
+    
+}
+@media (min-width: 1680px) {
+    
+}
+
+/* max width  */
+@media (max-width: 1680px) {
+   
+}
+
+@media (max-width: 1440px) {
+    .banner-area {
+        padding: 150px 0 120px;
+        height: auto;
+        min-height: auto;
+    }
+}
+
+@media (max-width: 1366px) {
+    
+
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1199px) {
+    .header-area {
+        padding: 10px 0;
+    }
+    .sticky-wrapper.is-sticky .header-area {
+        padding: 8px 0;
+    }
+    .header-area.active {
+        background: #000023;
+    }
+    .header-area .navbar .navbar-collapse {
+        margin-top: 0;
+    }
+    .navbar-toggler {
+        border: none;
+        border-radius: 0px;
+        cursor: pointer;
+        background: #203CA7;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-toggler span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #fff;
+        margin: auto;
+        margin-bottom: 4px;
+        transition: all 400ms linear;
+        cursor: pointer;
+    }
+    .navbar-toggler span:last-child {
+        margin-bottom: 0;
+    }
+    .navbar-toggler[aria-expanded=false] span:nth-child(2) {
+        opacity: 1;
+    }
+    .navbar-toggler[aria-expanded=true] span:nth-child(2) {
+        opacity: 0;
+    }
+    .navbar-toggler[aria-expanded=true] span:first-child {
+        transform: rotate(-45deg);
+        position: relative;
+        top: 7.5px;
+    }
+    .navbar-toggler[aria-expanded=true] span:last-child {
+        transform: rotate(45deg);
+        bottom: 6px;
+        position: relative;
+    }
+    .header-area .navbar .navbar-nav .nav-item {
+        margin-right: 0;
+        text-align: center;
+    }
+    .header-area .navbar .navbar-nav .nav-item a {
+        border-bottom: 1px solid #dddddd3b;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+    .navbar-nav {
+        padding-top: 15px;
+    }
+    .header-area .navbar .navbar-nav .nav-item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .header-area .navbar .header-btns li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    .header-btn-wrap {
+        text-align: center;
+    }
+    .header-area .navbar .navbar-nav .nav-item a {
+        line-height: 30px;
+    }
+    .sticky-wrapper.is-sticky .header-area .navbar .navbar-nav .nav-item a {
+        line-height: 30px;
+    }
+    .header-btn.navbar-nav {
+        justify-content: center;
+        display: flex;
+    }
+    .header-btn.navbar-nav li {
+        text-align: center;
+    }
+    .header-area .navbar .container {
+        border-bottom: none;
+        padding: 0 15px;
+    }
+    .sticky-wrapper.is-sticky .header-area .navbar .container {
+        padding: 0 15px;
+    }
+    .header-area .navbar .header-btn-wrap .primary-btn {
+        min-width: 200px;
+    }
+    .tab-wrap .nav {
+        gap: 15px;
+        padding-right: 0;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .promise-thumb {
+        margin-bottom: 30px;
+    }
+    .tab-wrap .nav {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .testi-slider-wrap {
+        margin: 0;
+    }
+    .banner-area {
+        background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 100%, transparent 100%), url(../img/bg/banner-bg.webp);
+    }
+}
+
+@media (max-width: 575px) {
+    .banner-area .banner-content h1 {
+        font-size: 2.125rem;
+        line-height: 2.625rem;
+    }
+    .testimonial-rating-brands {
+        gap: 10px;
+    }
+    .section-title h2 {
+        font-size: 36px;
+    }
+    .promise-area .promise-content h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .contact-address .info-title {
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+   
+}
+
+@media (max-width: 375px) {
+    
+}
