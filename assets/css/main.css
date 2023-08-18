@@ -284,6 +284,7 @@ img {
 .header-area .navbar-brand {
   margin-bottom: 0;
   margin-right: 60px;
+  max-width: 50vw;
 }
 .header-area .navbar-brand img {
   -webkit-transition: all 0.3s ease 0s;
