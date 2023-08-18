@@ -1,0 +1,21 @@
+/* Footer area css
+============================================================================================ */
+.footer-area {
+    padding: 30px 0;
+    background-color: #0f1738;
+    text-align: center;
+    .footer-logo {
+        display: block;
+        margin-bottom: 10px;
+    }
+    h5 {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    &__copyright{
+        font-size: 0.875rem;
+    }
+}

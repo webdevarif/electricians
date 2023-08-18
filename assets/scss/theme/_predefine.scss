@@ -1,0 +1,112 @@
+/* Main Title Area css
+============================================================================================ */
+.section-title {
+  margin-bottom: 30px;
+  h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+  }
+}
+
+.padding-top {
+    padding-top: 120px;
+}
+.padding-bottom {
+    padding-bottom: 120px;
+}
+/* Start Primary btns css
+============================================================================================ */
+.primary-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 14px 25px;
+    border-radius: 6px;
+    color: $white;
+    background: $primary-color;
+    font-size: 1.125rem;
+    font-weight: 700;
+    transition: .3s;
+    img {
+        margin-right: 10px;
+    }
+    i {
+        margin-left: 10px;
+        font-size: 14px;
+        color: #FCC907;
+    }
+    &:hover, &.active {
+        background: #0F1738;
+        color: $white;
+    }
+}
+
+/* gradient-bg css
+============================================================================================ */
+.gradient-bg {
+    @include gradient(to right, $text-color, $primary-color);
+}
+
+/* animation delay css
+============================================================================================ */
+
+.delay-1 {
+    animation-delay: .1s;
+}
+
+.delay-2 {
+    animation-delay: .2s;
+}
+
+.delay-3 {
+    animation-delay: .3s;
+}
+
+.delay-4 {
+    animation-delay: .4s;
+}
+
+.delay-5 {
+    animation-delay: .5s;
+}
+
+.delay-6 {
+    animation-delay: .6s;
+}
+
+.delay-7 {
+    animation-delay: .7s;
+}
+
+.delay-8 {
+    animation-delay: .8s;
+}
+
+.delay-9 {
+    animation-delay: .9s;
+}
+
+.delay-10 {
+    animation-delay: 1s;
+}
+
+.delay-11 {
+    animation-delay: 1.1s;
+}
+
+.delay-12 {
+    animation-delay: 1.2s;
+}
+
+.delay-13 {
+    animation-delay: 1.3s;
+}
+
+.delay-14 {
+    animation-delay: 1.4s;
+}
+
+.delay-15 {
+    animation-delay: 1.5s;
+}

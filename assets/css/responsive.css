@@ -163,6 +163,15 @@
 }
 
 @media (max-width: 575px) {
+    .check-list li{
+        font-size: 0.875rem;
+        line-height: 1.4375rem;
+    }
+    .tab-wrap .tab-content-inner .desc{
+        font-size: 0.875rem;
+        line-height: 1.4375rem;
+    }
+    .tab-wrap .tab-content-inner .title,
     .section-title h2{
         font-size: 1.375rem;
         line-height: 1.5625rem;
