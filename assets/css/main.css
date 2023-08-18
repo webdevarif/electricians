@@ -493,7 +493,7 @@ img {
 }
 .testi-slider-wrap .slick-list {
   overflow: inherit;
-  width: 764px;
+  max-width: 764px;
 }
 .testi-slider-wrap .slick-slide {
   margin-left: 15px;
