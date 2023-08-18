@@ -319,21 +319,8 @@ img {
   transition: all 0.3s ease 0s;
   text-transform: capitalize;
 }
-.header-area .navbar .navbar-nav .nav-item a:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 1px;
-  width: 0;
-  background: #ffffff;
-  transition: 0.3s;
-}
 .header-area .navbar .navbar-nav .nav-item:hover > a, .header-area .navbar .navbar-nav .nav-item a.active {
-  color: #ffffff;
-}
-.header-area .navbar .navbar-nav .nav-item:hover > a:before, .header-area .navbar .navbar-nav .nav-item a.active:before {
-  width: 100%;
+  color: rgb(252, 220, 101);
 }
 .header-area .navbar .header-btn-wrap {
   gap: 20px;
