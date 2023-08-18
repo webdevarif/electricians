@@ -700,6 +700,16 @@ img {
   background: transparent;
   padding: 0;
 }
+.contact-form .primary-btn {
+  background-color: #fcc907;
+  color: #14171f;
+}
+.contact-form .primary-btn i {
+  color: #14171f;
+}
+.contact-form .primary-btn:hover {
+  background-color: #fdf3ce;
+}
 
 /* Footer area css
 ============================================================================================ */

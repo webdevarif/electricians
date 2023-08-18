@@ -163,6 +163,33 @@
 }
 
 @media (max-width: 575px) {
+    .section-title h2{
+        font-size: 1.375rem;
+        line-height: 1.5625rem;
+    }
+    .primary-btn{
+        font-size: 0.875rem;
+        padding: 10px 25px;
+    }
+    .testi-slider-wrap .slick-list{
+        max-width: 300px;   
+    }
+    .single-testi-slider{
+        padding: 20px;
+    }
+    .single-testi-slider .msg{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 0.75rem;
+        line-height: 1.25rem;
+    }
+    .tab-wrap .nav .nav-link{
+        height: 4rem; 
+        font-size: 0.875rem;
+    }
+    .single-testi-slider .author-meta .author-meta-desc h5{
+        font-size: 0.875rem;
+    }
     .banner-area .banner-content h1 {
         font-size: 2.125rem;
         line-height: 2.625rem;
@@ -170,17 +197,55 @@
     .testimonial-rating-brands {
         gap: 20px;
     }
-    .section-title h2 {
-        font-size: 36px;
+    .promise-area{
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .promise-area .promise-content p{
+        font-size: 0.875rem;
+        line-height: 1.4375rem;
     }
     .promise-area .promise-content h2 {
-        font-size: 2rem;
-        line-height: 2rem;
+        font-size: 1.375rem;
+        line-height: 1.5625rem;
+    }
+    .promise-area .promise-content .meta-info p{
+        font-size: 0.875rem;
+        line-height: 1rem;
     }
     .contact-address .info-title {
         font-size: 2rem;
         line-height: 2rem;
         margin-bottom: 30px;
+    }
+    .contact-form{
+        padding: 20px;
+        padding-bottom: 40px;
+    }
+    .contact-form .contact-title{
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        font-weight: 700;
+    }
+    .contact-area{
+        padding: 50px 7px;
+    }
+    .contact-area .info-title{
+        text-align: center;
+        font-size: 1.375rem;
+        line-height: 1.5625rem;
+    }
+    .contact-address .single-contact-info .info-meta h4 {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        font-weight: 700;
+    }
+    .contact-address .single-contact-info .info-meta p, .contact-address .single-contact-info .info-meta a {
+        font-size: 0.875rem;
+        line-height: 1.4375rem;
     }
 }
 
